@@ -10,6 +10,7 @@ Set Up Procedure
 9. Create a database as named in the MYSQL_DATABASE in the .env file
 10. cd the container by running docker-compose exec workspace bash
 11. then run php artisan migrate
+12. run seeder php artisan db:seed --class=AdvertisingSeeder
 12. run nvm install 14.17.1
 13. run nvm use 14.17.1
 14. run npm install
